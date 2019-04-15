@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "count": 0,
+          "name": "Cousin Ben",
+      "image": "images/CousinBen.jpg"
+    },
+  
+    {
+      "id": 2,
+      "count": 0,
+          "name": "Eleanor Zissou",
+      "image": "./images/EleanorZissou.jpg"
+    },
+    {
+      "id": 3,
+      "count": 0,
+          "name": "Eli Cash",
+      "image": "./images/EliCash.jpg"
+    },
+    {
+      "id": 4,
+      "count": 0,
+          "name": "Fantastic Mr. Fox",
+      "image": "./images/FantasticMrFox.jpg"
+    },
+    {
+      "id": 5,
+      "count": 0,
+          "name": "Klaus Daimler",
+      "image": "./images/KlausDaimler.jpg"
+    },
+    {
+      "id": 6,
+      "count": 0,
+          "name": "Margot Tennenbaum",
+      "image": "./images/MargotTennenbaum.jpg"
+    },
+    {
+      "id": 7,
+      "count": 0,
+          "name": "M. Gustave",
+      "image": "./images/MGustave.jpg"
+    },
+    {
+      "id": 8,
+      "count": 0,
+          "name": "Peter Whitman",
+      "image": "./images/PeterWhitman.jpg"
+    },
+    {
+      "id": 9,
+      "count": 0,
+          "name": "Richie Tannenbaum",
+      "image": "./images/RichieTannenbaum.jpg"
+    },
+    {
+      "id": 10,
+      "count": 0,
+          "name": "Royal Tannenbaum",
+      "image": "./images/RoyalTannenbaum.jpg"
+    },
+    {
+      "id": 11,
+      "count": 0,
+          "name": "Social Service Worker",
+      "image": "./images/SocialServices.jpg"
+    },
+    {
+      "id": 12,
+      "count": 0,
+          "name": "Steve Zissou",
+      "image": "./images/SteveZissou.jpg"
+    }
+  ] 
+  
