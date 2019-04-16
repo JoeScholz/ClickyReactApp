@@ -23,14 +23,14 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`Game Over! \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
 
   clickCount = id => {
-    this.state.cards.find((o, i) => {
-      if (o.id === id) {
+    this.state.cards.find((index, i) => {
+      if (index.id === id) {
         if(cards[i].count === 0){
           cards[i].count = cards[i].count + 1;
           this.setState({score : this.state.score + 1}, function(){
