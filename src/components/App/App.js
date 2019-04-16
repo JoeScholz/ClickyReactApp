@@ -1,10 +1,9 @@
 
 import React, { Component } from "react";
-import Cards from "../Cards/Cards.js.js";
+import Cards from "../Cards/Cards.js";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
-import Score from "../Score";
-import cards from "../../assets/cards.json.js";
+import cards from "../../assets/cards.json";
 import "./style.css"
 
 class App extends Component {
