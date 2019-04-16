@@ -1,10 +1,9 @@
 
 import React, { Component } from "react";
-import Cards from "../Cards/Cards.js.js";
+import Cards from "../Cards/Cards.js";
 import Wrapper from "../Wrapper";
 import Header from "../Header";
-import Score from "../Score";
-import cards from "../../assets/cards.json.js";
+import cards from "../../assets/cards.json";
 import "./style.css"
 
 class App extends Component {
@@ -24,14 +23,14 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`Game Over! \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
 
   clickCount = id => {
-    this.state.cards.find((o, i) => {
-      if (o.id === id) {
+    this.state.cards.find((index, i) => {
+      if (index.id === id) {
         if(cards[i].count === 0){
           cards[i].count = cards[i].count + 1;
           this.setState({score : this.state.score + 1}, function(){
